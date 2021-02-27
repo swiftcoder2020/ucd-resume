@@ -50,7 +50,6 @@
     background-color: #d9a81d;
 }
 
-
 .ui-menu-color-github {
     background-color: #1c4a6c;
 }
@@ -59,16 +58,12 @@
     background-color: #e74c3c;
 }
 
-
-
-
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     background-color: #525252;
     color: #555555;
 }
-
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
@@ -93,7 +88,6 @@ h4 {
     display: inline-block;
 }
 
-
 .row-table {
     display: table;
 }
@@ -105,7 +99,6 @@ h4 {
     margin-top: 25px;
     margin-bottom: 40px;
 }
-
 
 /*--------------------------------------------Heading*/
 
@@ -166,7 +159,6 @@ header {
     height: 120px;
 }
 
-
 .menuitem a i {
     padding-top: 22px;
     display: block;
@@ -185,14 +177,12 @@ header {
     letter-spacing: 2px;
 }
 
-
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
-
 
 /*--------------------------------------------Footer*/
 
@@ -309,11 +299,9 @@ footer .cv-pdf i:hover {
     background-color: rgba(25, 25, 25, 0.2);
 }
 
-
 .progress-section {
     margin: 40px 20px;
 }
-
 
 /*--------------------------------------------Work History*/
 
@@ -372,9 +360,9 @@ footer .cv-pdf i:hover {
     margin-bottom: 20px;
 }
 
-
 .center-form {
     padding-top: 10px;
+    padding-bottom: 25px;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -387,6 +375,7 @@ button[type="submit"] {
 }
 
 /*--------------------------------------------Map*/
+
 div#map {
     min-height: 360px;
 }
