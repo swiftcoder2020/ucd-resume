@@ -40,6 +40,11 @@ function repoInformationHTML(repos) {
 }
 
 function fetchGitHubInformation(event) {
+    // this gets rid of issue with gh-repo-data div not being cleared when there's
+    // an empty input field
+    $("#gh-user-data").html("");
+    $("#gh-repo-data").html("");
+
     var username = $("#gh-username").val();
     if (!username) {
         $("#gh-user-data").html(`<h2>Please enter a GitHub username</h2>`);
@@ -73,3 +78,6 @@ function fetchGitHubInformation(event) {
             }
         });
 }
+
+// GitHub profile would be displaying when the page is loaded instead of empty div
+$(document).ready(fetchGitHubInformation);
